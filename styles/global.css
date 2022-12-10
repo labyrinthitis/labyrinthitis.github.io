@@ -22,6 +22,10 @@ a:hover {
   text-decoration: underline;
 }
 
+a[href*="//"]:after { 
+  content: "\2197"; /* top right arrow: ↗ */
+}
+
 img {
   max-width: 100%;
   display: block;
@@ -32,4 +36,8 @@ pre {
   padding: 0.2rem 0.6rem;
   border-radius: 0.4rem;
   border: 0.06rem solid #444;
+}
+
+code {
+  font-family: 'Courier New', monospace;
 }

@@ -3,8 +3,8 @@ import styles from './layout.module.css'
 import utilStyles from '../styles/utils.module.css'
 import Link from 'next/link'
 
-const name = 'labyrinthitis'
-export const siteTitle = 'labyrinthitis'
+const name = 'my brother the wind'
+export const siteTitle = 'my brother the wind'
 
 export default function Layout({
   children,
@@ -18,7 +18,7 @@ export default function Layout({
       <Head>
         <meta
           name="description"
-          content="a technical blog"
+          content="an informal, technical log"
         />
         <meta name="og:title" content={siteTitle} />
         <meta name="twitter:card" content="summary_large_image" />
