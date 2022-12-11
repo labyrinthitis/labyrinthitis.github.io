@@ -1,10 +1,15 @@
+@font-face {
+  font-family: Syne;
+  src: url(SyneMono-Regular.ttf);
+}
+
 html,
 body {
   background: #222;
   color: antiquewhite;
   padding: 0;
   margin: 0;
-  font-family: 'Courier New', monospace;
+  font-family: 'Syne', monospace;
   line-height: 1.6;
   font-size: 20px;
 }
@@ -18,12 +23,8 @@ a {
   text-decoration: none;
 }
 
-a:hover {
-  text-decoration: underline;
-}
-
 a[href*="//"]:after { 
-  content: "\2197"; /* top right arrow: ↗ */
+  content: "↗"; /* top right arrow: ↗ */
 }
 
 img {
@@ -31,13 +32,13 @@ img {
   display: block;
 }
 
-pre {
-  background: #333;
-  padding: 0.2rem 0.6rem;
-  border-radius: 0.4rem;
-  border: 0.06rem solid #444;
+code {
+  font: 18px 'Syne', monospace;
 }
 
-code {
-  font-family: 'Courier New', monospace;
+pre {
+  background: #333;
+  padding: 0.4rem 0.8rem;
+  border-radius: 0.4rem;
+  border: 0.06rem solid #444;
 }

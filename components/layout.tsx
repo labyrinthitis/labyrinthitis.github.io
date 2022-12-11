@@ -3,8 +3,8 @@ import styles from './layout.module.css'
 import utilStyles from '../styles/utils.module.css'
 import Link from 'next/link'
 
-const name = 'my brother the wind'
-export const siteTitle = 'my brother the wind'
+const name = 'labyrinthitis'
+export const siteTitle = 'labyrinthitis'
 
 export default function Layout({
   children,
@@ -51,7 +51,7 @@ export default function Layout({
       <main>{children}</main>
       {!home && (
         <div className={styles.backToHome}>
-          <Link href="/">← Back to home</Link>
+          <Link href="/">..</Link>
         </div>
       )}
     </div>
