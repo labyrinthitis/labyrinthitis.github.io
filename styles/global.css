@@ -12,6 +12,10 @@
   --code-border-color: #444;
   --footer-color: rgb(80, 80, 80);
   --footer-anchor-color: rgb(80, 80, 80);
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
 }
 
 html,
