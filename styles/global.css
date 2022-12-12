@@ -3,15 +3,25 @@
   src: url(SyneMono-Regular.ttf);
 }
 
+* {
+  --text-color: antiquewhite;
+  --back-color: #222;
+  --link-color: rgb(251, 115, 100);
+  --link-color-hover:rgb(254, 149, 114); 
+  --code-back-color: #333;
+  --code-border-color: #444;
+  --footer-color: rgb(80, 80, 80);
+  --footer-anchor-color: rgb(80, 80, 80);
+}
+
 html,
 body {
-  background: #222;
-  color: antiquewhite;
+  background: var(--back-color);
+  color: var(--text-color);
   padding: 0;
   margin: 0;
-  font-family: 'Syne', monospace;
+  font: 20px 'Syne', monospace;
   line-height: 1.6;
-  font-size: 20px;
 }
 
 * {
@@ -19,12 +29,16 @@ body {
 }
 
 a {
-  color: salmon;
+  color: var(--link-color);
   text-decoration: none;
 }
 
+a:hover {
+  color: var(--link-color-hover);
+}
+
 a[href*="//"]:after { 
-  content: "↗"; /* top right arrow: ↗ */
+  content: "\2197";
 }
 
 img {
@@ -37,8 +51,8 @@ code {
 }
 
 pre {
-  background: #333;
+  background: var(--code-back-color);
   padding: 0.4rem 0.8rem;
   border-radius: 0.4rem;
-  border: 0.06rem solid #444;
+  border: 0.06rem solid var(--code-border-color);
 }

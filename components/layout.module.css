@@ -10,6 +10,18 @@
   align-items: center;
 }
 
-.backToHome {
+.footer {
+  font-size: 16px;
+  color: var(--footer-color);
   margin: 3rem 0 0;
+}
+
+.footer a {
+  color: var(--footer-anchor-color);
+  text-decoration: underline;
+}
+
+.footer a:hover {
+  color: var(--footer-anchor-color);
+  text-decoration: none;
 }

@@ -7,7 +7,7 @@ Stolen from [cadars](https://github.com/cadars/john-doe/blob/main/style.css#L254
 
 ```css
 a[href*="//"]:after {
-  /* top-right arrow (↗) */
+  /* top-right arrow */
   content: "\2197";
 }
 ```

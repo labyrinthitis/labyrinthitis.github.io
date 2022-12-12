@@ -50,8 +50,8 @@ export default function Layout({
       </header>
       <main>{children}</main>
       {!home && (
-        <div className={styles.backToHome}>
-          <Link href="/">..</Link>
+        <div className={styles.footer}>
+          <p><Link href="/">index</Link> • <Link href="https://github.com/labyrinthitis">github</Link></p>
         </div>
       )}
     </div>
