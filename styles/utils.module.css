@@ -4,6 +4,11 @@
   font-weight: 800;
   letter-spacing: -0.05rem;
   margin: 1rem 0;
+  font-variant: small-caps;
+}
+
+.heading2Xl:hover {
+  font-variant: normal;
 }
 
 .headingXl {
