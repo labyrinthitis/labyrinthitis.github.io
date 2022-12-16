@@ -51,7 +51,7 @@ export default function Layout({
       <main>{children}</main>
       {!home && (
         <div className={styles.footer}>
-          <p><Link href="/">index</Link> • <Link href="https://github.com/labyrinthitis">github</Link></p>
+          <p><Link href="/">Index</Link> • The mind was dreaming. The world was its dream.</p>
         </div>
       )}
     </div>

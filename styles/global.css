@@ -6,10 +6,10 @@
 * {
   --text-color: antiquewhite;
   --back-color: #222;
-  --link-color: rgb(251, 115, 100);
-  --link-color-hover:rgb(254, 149, 114); 
-  --code-back-color: #333;
-  --code-border-color: #444;
+  --link-color: rgb(251, 144, 108);
+  --link-color-hover: rgb(205, 116, 87); 
+  --code-bg: #333;
+  --code-border: #444;
   --footer-color: rgb(80, 80, 80);
   --footer-anchor-color: rgb(80, 80, 80);
 
@@ -55,8 +55,8 @@ code {
 }
 
 pre {
-  background: var(--code-back-color);
+  background: var(--code-bg);
   padding: 0.4rem 0.8rem;
-  border-radius: 0.4rem;
-  border: 0.06rem solid var(--code-border-color);
+  border-radius: 0.25rem;
+  border: 0.035rem solid var(--code-border);
 }
