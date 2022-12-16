@@ -1,5 +1,5 @@
 ---
-title: 'oss intro'
+title: 'open source software'
 date: '2022-12-12'
 ---
 
