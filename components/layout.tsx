@@ -3,8 +3,8 @@ import styles from './layout.module.css'
 import utilStyles from '../styles/utils.module.css'
 import Link from 'next/link'
 
-const name = 'labyrinthitis'
-export const siteTitle = 'labyrinthitis'
+const name = 'techn꙳cal log'
+export const siteTitle = 'technical log'
 
 export default function Layout({
   children,
@@ -30,28 +30,14 @@ export default function Layout({
           </>
         ) : (
           <>
-            <Link href="/">
-              {/* <Image
-                priority
-                src="/images/profile.jpg"
-                className={utilStyles.borderCircle}
-                height={108}
-                width={108}
-                alt={name}
-              /> */}
-            </Link>
-            {/* <h2 className={utilStyles.headingLg}>
-              <Link href="/" className={utilStyles.colorInherit}>
-                {name}
-              </Link>
-            </h2> */}
+            {}
           </>
         )}
       </header>
       <main>{children}</main>
       {!home && (
         <div className={styles.footer}>
-          <p><Link href="/">Index</Link> • The mind was dreaming. The world was its dream.</p>
+          <p><Link href="/">Back to index</Link></p>
         </div>
       )}
     </div>

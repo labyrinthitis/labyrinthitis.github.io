@@ -5,13 +5,12 @@
 
 * {
   --text-color: antiquewhite;
-  --back-color: #222;
-  --link-color: rgb(251, 144, 108);
-  --link-color-hover: rgb(205, 116, 87); 
-  --code-bg: #333;
-  --code-border: #444;
-  --footer-color: rgb(80, 80, 80);
-  --footer-anchor-color: rgb(80, 80, 80);
+  --back-color: dimgray;
+  --link-color: #f88080;
+  --code-bg: #444;
+  --code-border: #555;
+  --footer-color: #555;
+  --footer-anchor-color: #555;
 
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -24,7 +23,7 @@ body {
   color: var(--text-color);
   padding: 0;
   margin: 0;
-  font: 20px 'Syne', monospace;
+  font: 22px 'Syne', monospace;
   line-height: 1.6;
 }
 
@@ -34,11 +33,11 @@ body {
 
 a {
   color: var(--link-color);
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 a:hover {
-  color: var(--link-color-hover);
+  text-decoration: none;
 }
 
 a[href*="//"]:after { 
@@ -51,7 +50,7 @@ img {
 }
 
 code {
-  font: 18px 'Syne', monospace;
+  font: 20px 'Syne', monospace;
 }
 
 pre {

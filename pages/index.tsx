@@ -21,7 +21,7 @@ export default function Home({
         <title>{siteTitle}</title>
       </Head>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
-        <p className={utilStyles.headingX3}>notes</p>
+        <br />
         <ul className={utilStyles.list}>
           {allPostsData.map(({ id, date, title }) => (
             <li className={utilStyles.listItem} key={id}>
@@ -33,13 +33,6 @@ export default function Home({
             </li>
           ))}
         </ul>
-      </section>
-      <br /> <br />
-      <section className={utilStyles.headingMd}>
-        <p className={utilStyles.headingX3}>projects</p>
-        <div><a href="/art.png"><img className={utilStyles.projects} src="../art.png" /></a>
-        <span className={utilStyles.projectsLink}><Link href="https://github.com/labyrinthitis/art/">Source Code</Link> • <Link href="https://labyrinthitis.github.io/art/">Live Demo</Link></span>
-        </div>
       </section>
     </Layout>
   )

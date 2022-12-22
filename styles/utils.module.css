@@ -7,43 +7,6 @@
   font-variant: small-caps;
 }
 
-.headingX3 {
-  font-variant: small-caps;
-  font-size: 2rem;
-  letter-spacing: 0.125rem;
-  margin: 1rem 0;
-  font-weight: 800;
-}
-
-.projects {
-  width: 350px;
-  border: 0.2rem solid #444;
-  margin: 0;
-  padding: 0;
-}
-
-.projects:hover {
-  border: 0.2rem solid #555;
-}
-
-.projectsLink {
-  margin: 0;
-  padding: 0;
-  font-size: 18px;
-  color: var(--footer-color);
-  margin: 3rem 0 0;
-}
-
-.projectsLink a {
-  color: var(--footer-anchor-color);
-  text-decoration: underline;
-}
-
-.projectsLink a:hover {
-  color: var(--footer-anchor-color);
-  text-decoration: none;
-}
-
 .headingXl {
   font-variant: small-caps;
   font-size: 3rem;
@@ -87,5 +50,5 @@
 }
 
 .lightText {
-  color: gray;
+  color: rgb(141, 141, 141);
 }
