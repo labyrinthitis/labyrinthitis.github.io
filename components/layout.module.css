@@ -17,11 +17,15 @@
 }
 
 .footer a {
-  color: var(--footer-anchor-color);
-  text-decoration: underline;
+  color: var(--light-color);
+  text-decoration: none;
 }
 
 .footer a:hover {
-  color: var(--footer-anchor-color);
   text-decoration: none;
+}
+
+.footer a:hover:before {
+  font-size: 20px;
+  content: '\2190\20';
 }

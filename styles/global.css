@@ -1,16 +1,15 @@
 @font-face {
   font-family: Syne;
-  src: url(SyneMono-Regular.ttf);
+  src: url('SyneMono-Regular.ttf');
 }
 
 * {
   --text-color: antiquewhite;
+  --light-color: rgb(155, 139, 139);
   --back-color: dimgray;
   --link-color: #f88080;
-  --code-bg: #444;
+  --code-bg: #6f426f;
   --code-border: #555;
-  --footer-color: #555;
-  --footer-anchor-color: #555;
 
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;

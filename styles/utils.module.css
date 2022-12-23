@@ -50,5 +50,5 @@
 }
 
 .lightText {
-  color: rgb(141, 141, 141);
+  color: var( --light-color);
 }
