@@ -20,8 +20,8 @@ export default function Home({
       <Head>
         <title>{siteTitle}</title>
       </Head>
+      <br />
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
-        <br />
         <ul className={utilStyles.list}>
           {allPostsData.map(({ id, date, title }) => (
             <li className={utilStyles.listItem} key={id}>

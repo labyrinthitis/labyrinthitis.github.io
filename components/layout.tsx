@@ -18,7 +18,7 @@ export default function Layout({
       <Head>
         <meta
           name="description"
-          content="informal technical log"
+          content="an informal technical log"
         />
         <meta name="og:title" content={siteTitle} />
         <meta name="twitter:card" content="summary_large_image" />
